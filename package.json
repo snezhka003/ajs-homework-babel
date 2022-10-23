@@ -4,11 +4,12 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snezhka003/ajs-homework-npm.git"
+    "url": "git+https://github.com/snezhka003/ajs-homework-babel.git"
   },
   "keywords": [
     "game"
@@ -16,7 +17,15 @@
   "author": "snezhka003",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/snezhka003/ajs-homework-npm/issues"
+    "url": "https://github.com/snezhka003/ajs-homework-babel/issues"
   },
-  "homepage": "https://github.com/snezhka003/ajs-homework-npm#readme"
+  "homepage": "https://github.com/snezhka003/ajs-homework-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4"
+  },
+  "dependencies": {
+    "core-js": "^3.25.5"
+  }
 }
