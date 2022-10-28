@@ -26,6 +26,6 @@
     "@babel/preset-env": "^7.19.4"
   },
   "dependencies": {
-    "core-js": "^3.25.5"
+    "core-js": "^3.26.0"
   }
 }
